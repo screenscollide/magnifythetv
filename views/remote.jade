@@ -1,22 +1,19 @@
 extends layout
 
 block stylesheets
-  link(rel="stylesheet", href="/css/style.css")
+  link(rel="stylesheet", href="/css/remote.css")
 
 block javascripts
   script(type="text/javascript", charset="utf-8", src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js")
+  //https://github.com/briangonzalez/jquery.pep.js
   script(type="text/javascript", charset="utf-8", src="/js/plugins/pep/jquery.pep.min.js")
   script(type="text/javascript", charset="utf-8")
     $(document).ready(function(){
-      //https://github.com/briangonzalez/jquery.pep.js
-      $.getScript("/js/main.js");
+      $.getScript("/js/remote.js");
     });
 
 block content
   .jumbotron
-  
-    //h1 Remote
-    
     p.lead
       | Move the ball around
     #parent

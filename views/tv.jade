@@ -1,23 +1,21 @@
 extends layout
 
 block stylesheets
+  link(rel="stylesheet", href="/css/tv.css")
   style
     #videoDiv{ margin: 0 auto; }
 
 block javascripts
-  script(type="text/javascript", charset="utf-8", src="http://www.google.com/jsapi")
-  script(type="text/javascript", charset="utf-8") google.load("swfobject", "2.1");
   script(type="text/javascript", charset="utf-8")
-    google.setOnLoadCallback(function(){
-      $(document).ready(function(){
-        $.getScript( "/js/com.chrisaiv.VideoPlayer.js", getScriptCompleteHandler );
-          function getScriptCompleteHandler(e){
-            VideoPlayer.initialize( );
-          }
-        });
-      });
+    $(document).ready(function(){
+      $.getScript( "/js/com.chrisaiv.TV.js" );
+      $.getScript( "/js/tv.js" );      
+    });
 
 block content
-      .jumbotron
-        h1 Video
-        #videoDiv
+  .jumbotron
+    .magnify
+      //This is the magnifying glass which will contain the original/large version
+      .large
+      img(class="small", src="http://thecodeplayer.com/uploads/media/iphone.jpg", width=200)
+      
