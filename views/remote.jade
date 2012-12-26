@@ -1,21 +1,7 @@
 extends layout
 
 block stylesheets
-  style(type="text/css", media="screen")
-    #parent{ border: 1px solid red; height: 400px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 80px;
-    -ms-border-radius: 80px;
-    -o-border-radius: 80px;
-    border-radius: 400px; }
-    .pep{ width: 100px; height: 100px; background: rgb(100, 100, 200); color: white; border-radius: 100px; }
-    .peppable2{ position: absolute; top: 40px; left: 300px; background-color:hsla(0,100%,50%,0.1);    
-     -webkit-border-radius: 80px;
-     -moz-border-radius: 80px;
-     -ms-border-radius: 80px;
-     -o-border-radius: 80px;
-     border-radius: 80px;
-     }
+  link(rel="stylesheet", href="/css/style.css")
 
 block javascripts
   script(type="text/javascript", charset="utf-8", src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js")
@@ -29,10 +15,9 @@ block javascripts
 block content
   .jumbotron
   
-    h1 Remote
+    //h1 Remote
     
     p.lead
       | Move the ball around
     #parent
-      div(class="pep peppable") Constrained to parent
-    div(class="pep peppable2") Constrainted to window
+      div(class="pep peppable")
