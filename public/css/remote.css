@@ -1,12 +1,13 @@
 #parent{ 
-	border: 1px solid red; 
+	border: 1px solid #ccc; 
 	height: 400px; 
 }
 
 .pep{ 
 	width: 100px; 
 	height: 100px; 
-	background: rgb(100, 100, 200); 
+	background: transparent;
 	color: white; 
-	border-radius: 100px; 
+	border-radius: 100px;
+	border: 5px solid #333;
 }

@@ -5,9 +5,10 @@ $('.peppable').pep({
 		var el = $(obj.el);
 		var val = (el.parent().height() - el.position().top) / el.parent().height();
 		switch( ev.type ){
+			case "touchmove":
 			case "mousemove":
-			console.log( "Left:", el.position().left, "Top:", el.position().top, val + "%" );
-			SocketBridge.joystickMove( el.position().left, el.position().top );
+				console.log( "x:", el.position().left, "y:", el.position().top, val + "%" );
+				SocketBridge.joystickMove( el.position().left, el.position().top );
 			break;
 		}
 	},
