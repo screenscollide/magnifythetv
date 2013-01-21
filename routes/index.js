@@ -4,7 +4,7 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Move the TV' });
+  res.render('index', { title: 'Magnify the TV' });
 };
 
 exports.tv = function(req, res){
