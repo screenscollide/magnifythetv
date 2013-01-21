@@ -5,7 +5,6 @@
 
 var express = require('express')
   , routes = require('./routes')
-  , user = require('./routes/user')
   , http = require('http')
   , path = require('path');
 
@@ -33,7 +32,6 @@ app.configure('development', function(){
 app.get('/',       routes.index);
 app.get('/remote', routes.remote);
 app.get('/tv',     routes.tv);
-app.get('/users',  user.list);
 
 var server = http.createServer(app);
 server.listen( app.get('port'), function(){
