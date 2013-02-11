@@ -1,7 +1,7 @@
 {
-  "name": "magnifythetv",
-  "subdomain": "magnifythetv",
-  "version": "0.0.1-4",
+  "name": "magthetv",
+  "subdomain": "magthetv",
+  "version": "0.0.1-8",
   "private": true,
   "scripts": {
     "start": "app.js"
