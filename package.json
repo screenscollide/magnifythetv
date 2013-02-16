@@ -1,7 +1,10 @@
 {
   "name": "magthetv",
   "subdomain": "magthetv",
-  "version": "0.0.1-8",
+  "domains": [
+    "magnifythetv.screenscollide.com"
+  ],
+  "version": "0.0.1-9",
   "private": true,
   "scripts": {
     "start": "app.js"
@@ -10,7 +13,7 @@
     "express": "3.0.x",
     "jade": "0.27.x",
     "socket.io": "0.9.x",
-	"forever": "0.10.x",
+    "forever": "0.10.x",
     "nodemon": "0.6.x"
   },
   "engines": {
