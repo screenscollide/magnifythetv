@@ -32,19 +32,19 @@ Tools
 - jQuery.pep.js
 
 Version
-
+---
 1.0
 
-Inspiration
------------
+Author
+---
+[@chrismendezinla](http://twitter.com/chrismendezinla)
 
-http://thecodeplayer.com/walkthrough/magnifying-glass-for-images-using-jquery-and-css3
+Inspiration
+---
+[http://thecodeplayer.com/walkthrough/magnifying-glass-for-images-using-jquery-and-css3](http://thecodeplayer.com/walkthrough/magnifying-glass-for-images-using-jquery-and-css3)
 
 License
 -
-
 MIT
 
 *Free Software, Fuck Yeah!*
-
-  [@chrismendezinla]: http://twitter.com/chrismendezinla
