@@ -1,4 +1,4 @@
-Magnify the TV
+[http://magnifythetv.screenscollide.com/](http://magnifythetv.screenscollide.com/)
 =========
 
 Overview
@@ -37,7 +37,7 @@ Version
 
 Author
 ---
-[@chrismendezinla](http://twitter.com/chrismendezinla)
+- Chris Mendez | [@chrismendezinla](http://twitter.com/chrismendezinla)
 
 Inspiration
 ---
